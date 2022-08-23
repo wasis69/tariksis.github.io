@@ -1,1 +1,3 @@
-<a href="https://renoxf.github.io/" target="_blank">Click Me</a>
+<center>
+<a href="https://renoxf.github.io/" target="_blank" rel="noopener noreferrer">Click Me</a>
+</center>
