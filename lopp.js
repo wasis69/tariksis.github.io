@@ -1,13 +1,6 @@
-/******************************************
-* Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
-* Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
-* Last updated Nov 9th, 05' by DD. This notice must stay intact for use
 
-http://yourjavascript.com/
-******************************************/
-  
   //Configure below to change URL path to the snow image
-  var snowsrc="http://anas.ku93.googlepages.com/heart.gif"
+  var snowsrc="https://cutewallpaper.org/21/love-images-hd/Love-PNG-Images,-Free-Transparent-Image-Download-Pngix.png"
   // Configure below to change number of snow to render
   var no = 20;
   // Configure whether snow should disappear after x seconds (0=never):
@@ -42,7 +35,7 @@ http://yourjavascript.com/
   am = new Array();
   stx = new Array();
   sty = new Array();
-  snowsrc=(snowsrc.indexOf("http://anas.ku93.googlepages.com")!=-1)? "http://anas.ku93.googlepages.com/heart.gif" : snowsrc
+  snowsrc=(snowsrc.indexOf("http://anas.ku93.googlepages.com")!=-1)? "https://cutewallpaper.org/21/love-images-hd/Love-PNG-Images,-Free-Transparent-Image-Download-Pngix.png" : snowsrc
   for (i = 0; i < no; ++ i) {  
     dx[i] = 0;                        // set coordinate variables
     xp[i] = Math.random()*(doc_width-50);  // set position variables
@@ -52,7 +45,7 @@ http://yourjavascript.com/
     sty[i] = 0.7 + Math.random();     // set step variables
 		if (ie4up||ns6up) {
       if (i == 0) {
-        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://tutorial-jitu.blogspot.com\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
+        document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"https://cutewallpaper.org/21/love-images-hd/Love-PNG-Images,-Free-Transparent-Image-Download-Pngix.png\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
       } else {
         document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
       }
