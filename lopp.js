@@ -19,7 +19,7 @@
 
   var dx, xp, yp;    // coordinate and position variables
   var am, stx, sty;  // amplitude and step variables
-  var i, doc_width = 200, doc_height = 100; 
+  var i, doc_width = 800, doc_height = 600; 
   
   if (ns6up) {
     doc_width = self.innerWidth;
