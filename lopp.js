@@ -4,7 +4,7 @@
   // Configure below to change number of snow to render
   var no = 40;
   // Configure whether snow should disappear after x seconds (0=never):
-  var hidesnowtime = 0;
+  var hidesnowtime = 5;
   // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
   var snowdistance = "pageheight";
 
@@ -19,7 +19,7 @@
 
   var dx, xp, yp;    // coordinate and position variables
   var am, stx, sty;  // amplitude and step variables
-  var i, doc_width = 800, doc_height = 600; 
+  var i, doc_width = 400, doc_height = 300; 
   
   if (ns6up) {
     doc_width = self.innerWidth;
