@@ -2,9 +2,9 @@
   //Configure below to change URL path to the snow image
   var snowsrc="heart.gif"
   // Configure below to change number of snow to render
-  var no = 40;
+  var no = 100;
   // Configure whether snow should disappear after x seconds (0=never):
-  var hidesnowtime = 5;
+  var hidesnowtime = 0;
   // Configure how much snow should drop down before fading ("windowheight" or "pageheight")
   var snowdistance = "pageheight";
 
@@ -19,7 +19,7 @@
 
   var dx, xp, yp;    // coordinate and position variables
   var am, stx, sty;  // amplitude and step variables
-  var i, doc_width = 400, doc_height = 300; 
+  var i, doc_width = 200, doc_height = 100; 
   
   if (ns6up) {
     doc_width = self.innerWidth;
