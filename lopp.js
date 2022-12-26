@@ -1,6 +1,6 @@
 
   //Configure below to change URL path to the snow image
-  var snowsrc="heart.gif"
+  var snowsrc="small_heart2.gif"
   // Configure below to change number of snow to render
   var no = 100;
   // Configure whether snow should disappear after x seconds (0=never):
@@ -35,7 +35,7 @@
   am = new Array();
   stx = new Array();
   sty = new Array();
-  snowsrc=(snowsrc.indexOf("http://anas.ku93.googlepages.com")!=-1)? "heart.gif" : snowsrc
+  snowsrc=(snowsrc.indexOf("http://anas.ku93.googlepages.com")!=-1)? "small_heart2.gif" : snowsrc
   for (i = 0; i < no; ++ i) {  
     dx[i] = 0;                        // set coordinate variables
     xp[i] = Math.random()*(doc_width-50);  // set position variables
